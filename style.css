@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+
+
+body{
+    background-color: #272b30;
+    font-family: "Comfortaa", cursive;
+}
+
+header img {
+    max-height: 30vh;
+    object-fit: cover;
+    width: 100%;
+}
+.game-logo img{
+    width: 60px;
+}
+h5{
+    color: white;
+    font-family: "Nerko One", cursive;
+}
+nav{
+    margin-inline: auto;
+    margin-top: -40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.7);
+    background-color: #3a497b;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-list li{
+    padding: 10px;
+    color: white;
+    transition: all 0.3 ease-in-out;
+}
+.active{
+    color: #1082b4;
+}
+.nav-list li:hover{
+    color: #1082b4;
+}
+.card-body{
+    color: white;
+}
+.badge{
+    background-color: #0d6efd ;
+}
+.badge-col{
+    background-color: #363739;
+}
+figcaption p{
+    color: #929497;
+}
+.home .card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+}
+.home .card:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+.details{
+    color: white;
+}
+.errormssg{
+    color: white;
+    text-shadow: 0 0 10px red;
+    margin: auto;
+}
